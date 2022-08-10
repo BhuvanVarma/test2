@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 1264px;
+    width: 100%;
+    margin: auto;
+}
+
+.nav{
+    max-width: 1264px;
+    height: 70px;
+    border: 2.5px solid #f84c08;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    font-size: 18px;
+}
+
+.main > p > a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+.links:hover{
+    border-bottom: 2px solid #f84c08;
+}
